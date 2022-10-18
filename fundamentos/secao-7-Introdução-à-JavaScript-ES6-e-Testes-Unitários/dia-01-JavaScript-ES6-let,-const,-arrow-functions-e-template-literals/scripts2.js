@@ -2,4 +2,4 @@
 
   const sortOddsAndEvens = (numbers) => numbers.sort((a,b) => a-b);
 
-  console.log(sortOddsAndEvens(oddsAndEvens)); // será necessário alterar essa linha 😉
+console.log(`Os números ${sortOddsAndEvens(oddsAndEvens)} se encontram ordenados de forma crescente!`); // será necessário alterar essa linha 😉
