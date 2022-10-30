@@ -1,4 +1,4 @@
-const {books} = require('./libraryData')
+const {books} = require('./libraryData');
 
 const expectedResult = 43;
 
@@ -8,5 +8,5 @@ function averageAge() {
   const media = mediaBruta.toFixed();
   return media;
 }
-
+ 
 console.log(averageAge());
